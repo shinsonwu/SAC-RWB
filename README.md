@@ -1,3 +1,9 @@
+## Dataset Structure
+
+The dataset is organized into the following directory structure:
+
+
+
 ### Requirements
     Ubuntu
 
@@ -31,24 +37,9 @@ To evaluate a trained model, an example command is the following:
 python test_sac.py
 ```
 
-Both paths provided are absolute paths, but they could also be relative paths. Absolute paths are provided to avoid any assumptions on the current working directory. Any value between *'s needs to provided. Note: *trial-name* is typically a long string, so we recommend renaming it to something more meaningful. The format of *checkpoint_number* is something like "checkpoint_00770" or "checkpoint_001000"; however, we also recommend saving the checkpoint name as something more meaningful depending on what metric you're observing.
-
 
 ## Tensorboard
 You can track training or view the results of training by using tensorboard.
 ```
 tensorboard --logdir=tensorboard_logs
-```
-
-## **Citation**
-
-If you find the code useful for your work, please star this repo and consider citing:
-
-```
-@article{wang2023intersection,
-  title={Learning to Control and Coordinate Mixed Traffic Through Robot Vehicles at Complex and Unsignalized Intersections},
-  author={Wang, Dawei and Li, Weizi and Zhu, Lei and Pan, Jia},
-  journal={arXiv preprint arXiv:2301.05294},
-  year={2023}
-}
 ```
