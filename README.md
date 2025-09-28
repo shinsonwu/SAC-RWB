@@ -21,16 +21,13 @@ We recommend SUMO v1.12.0. If you use a later version of SUMO, be aware that the
 To train a model, an example command is the following:
 ```
 python train_sac.py
-```       
-
-For reference, an example reward curve after training using the above command should look like:
+```
 
 ## Evaluation
 To evaluate a trained model, an example command is the following:
 ```
 python test_sac.py
 ```
-
 
 ## Tensorboard
 You can track training or view the results of training by using tensorboard.
