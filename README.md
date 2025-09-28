@@ -1,9 +1,3 @@
-## Dataset Structure
-
-The dataset is organized into the following directory structure:
-
-
-
 ### Requirements
     Ubuntu
 
