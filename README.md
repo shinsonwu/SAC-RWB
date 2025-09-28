@@ -31,13 +31,6 @@ To evaluate a trained model, an example command is the following:
 python test_sac.py
 ```
 
-The rv-rate should match the rv-rate provided in the training command. The model-dir value should direct to the specific checkpoint number that you want to evaluate. The save-dir should direct to the folder/directory where you want to save the evaluation results.
-
-A more filled-out example command is the following:
-```
-
-```
-
 Both paths provided are absolute paths, but they could also be relative paths. Absolute paths are provided to avoid any assumptions on the current working directory. Any value between *'s needs to provided. Note: *trial-name* is typically a long string, so we recommend renaming it to something more meaningful. The format of *checkpoint_number* is something like "checkpoint_00770" or "checkpoint_001000"; however, we also recommend saving the checkpoint name as something more meaningful depending on what metric you're observing.
 
 
