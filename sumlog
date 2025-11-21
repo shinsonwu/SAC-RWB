@@ -1,0 +1,23 @@
+Loading net-file from 'real_data/CSeditClean_1.net_threelegs.xml' ... done (972ms).
+Loading done.
+Simulation version 1.15.0 started with time: 0.00.
+Simulation ended at time: 82.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 2.63s
+ TraCI-Duration: 2.16s
+ Real time factor: 31.1432
+ UPS: 4354.728447
+Vehicles: 
+ Inserted: 290 (Loaded: 1598)
+ Running: 276
+ Waiting: 358
+Teleports: 4 (Collisions: 4)
+Statistics (avg of 14):
+ RouteLength: 417.60
+ Speed: 8.99
+ Duration: 46.50
+ WaitingTime: 0.00
+ TimeLoss: 4.38
+ DepartDelay: 0.00
+
